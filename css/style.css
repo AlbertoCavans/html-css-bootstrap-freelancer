@@ -68,3 +68,18 @@ DEBUG---------------------------------------------------------
 #portfolio {
   color: hsl(210deg 29.03% 24.31%);
 }
+
+/* ? FOOTER */
+/* * FOOTER TOP */
+
+.footer-top {
+  background-color: hsl(209.41deg 30.54% 32.75%);
+  color: white;
+}
+
+/* * FOOTER BOTTOM */
+
+.footer-bottom {
+  color: white;
+  background-color: hsl(210deg 29.03% 24.31%);
+}
