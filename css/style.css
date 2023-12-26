@@ -130,6 +130,12 @@ a {
   color: white;
 }
 
+.icons-social {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 10px;
+}
+
 /* * FOOTER BOTTOM */
 
 .footer-bottom {
