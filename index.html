@@ -143,17 +143,62 @@
       </section>
 
       <!-- * CONTACTS -->
-      <section id="contacts">
+      <section id="contacts" class="py-4">
         <div class="container">
-          <h2 class="text-center">ABOUT</h2>
-          <br />
+          <h2 class="text-center">CONTACT ME</h2>
+          <div class="line-star-line my-4">
+            <i class="fa-solid fa-star"></i>
+          </div>
           <div class="row mt-5 justify-content-center text-start">
             <div class="col-10">
-              NOME<br />
-              EMAIL<br />
-              PHONE<br />
-              MESSAGE<br />
-              SEND
+              <form action="#" method="post">
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="username"
+                    name="username"
+                    placeholder="name@example.com"
+                  />
+                  <label for="username">Name</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    placeholder="name@example.com"
+                  />
+                  <label for="email">Email Address</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="phone"
+                    name="phone"
+                    placeholder="name@example.com"
+                  />
+                  <label for="phone">Phone Number</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <textarea
+                    type="text"
+                    class="form-control"
+                    id="message"
+                    name="message"
+                    placeholder="name@example.com"
+                    rows="4"
+                  >
+                  </textarea>
+                  <label for="message">Message</label>
+                </div>
+                <button class="btn btn-primary-custom">Send</button>
+              </form>
             </div>
           </div>
         </div>
