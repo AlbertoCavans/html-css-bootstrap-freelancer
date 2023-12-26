@@ -106,6 +106,22 @@ a {
   color: white;
 }
 
+/* * CONTACTS */
+.btn.btn-primary-custom {
+  background-color: hsl(168.15deg 75.7% 41.96%);
+  color: white;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 2px solid lightgray;
+  border-radius: 0;
+}
+
+#message {
+  height: 150px;
+}
+
 /* ? FOOTER */
 /* * FOOTER TOP */
 
