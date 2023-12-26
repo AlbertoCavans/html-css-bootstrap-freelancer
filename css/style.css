@@ -100,6 +100,12 @@ a {
   color: hsl(210deg 29.03% 24.31%);
 }
 
+/* * ABOUT */
+#about {
+  background-color: hsl(168.15deg 75.7% 41.96%);
+  color: white;
+}
+
 /* ? FOOTER */
 /* * FOOTER TOP */
 
